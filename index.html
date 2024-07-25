@@ -3,12 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+        </style>
         <title>Odin Recipes Homepage</title>
     </head>
     <body>
         <h1>Odin Recipes</h1>
-        <a href="./recipes/bakedbrie.html">Baked Brie</a><br>
-        <a href="./recipes/chickencordonbleu.html">Chicken Cordon Bleu</a><br>
-        <a href="./recipes/rumbaba.html">Rum Baba</a>
+        <div class="carousel">
+            <div class="carousel_slot">
+                <img src="./images/baked-brie.webp">
+                <a href="./recipes/bakedbrie.html">Baked Brie</a>
+            </div>
+            <div class="carousel_slot carousel_middle">
+                <img src="./images/chicken-cordon-bleu.webp">
+                <a href="./recipes/chickencordonbleu.html">Chicken Cordon Bleu</a>
+            </div>
+            <div class="carousel_slot">
+                <img src="./images/rum-baba.jpg">
+                <a href="./recipes/rumbaba.html">Rum Baba</a> 
+            </div>
+        </div>
     </body>
 </html>

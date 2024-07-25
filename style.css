@@ -1,0 +1,105 @@
+/* style.css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #707070;
+    font-family: "Hina Mincho", Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: #E2DED0;
+}
+  
+
+h1 {
+    text-align: center;
+    margin:50px;
+    width:auto;
+    height:70px;
+    font-size: 70px;
+}
+
+a {
+    color:beige;
+    font-size:30px;
+
+}
+
+a:hover {
+    color:#fe72ee;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 30px auto;
+    border:5px solid #3e3e3e;
+}
+
+h2 {
+    text-align: left;
+    padding: 0px 20px 20px 0px;
+    font-size:40px;
+}
+
+p {
+    padding: 20px 400px;
+    font-size: 25px;
+}
+
+li {
+    margin: 0px auto;
+    text-align: left;
+    padding:10px 0px 10px 10px;
+}
+
+.carousel {
+    display:inline-flex;
+    width:80%;
+    height:auto;
+    margin-top:100px;
+}
+
+.carousel_slot img {
+    height:240px;
+    margin:40px;
+}
+
+.carousel_middle {
+    border-left:5px dotted #E2DED0;
+    border-right:5px dotted #E2DED0;
+}
+
+.recipe {
+    width:700px;
+    display:inline-flex;
+    color:#b6b4ab;
+    margin:30px;
+}
+
+.ingredients {
+    display:inline;
+    width:350px;
+    margin-right: 60px;
+    padding: 0px 10px 0px 40px;
+    color:#b6b4ab;
+    border-right: 5px dotted #E2DED0;
+}
+
+.ingredients p {
+    display:inline-flex;
+    width:350px;
+    text-align: left;
+}
+
+.steps {
+    display:inline;
+    width:320px;
+    padding: 0px 10px;
+}
