@@ -12,7 +12,7 @@ html {
     font-family: "Hina Mincho", Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
-    color: #E2DED0;
+    color: antiquewhite;
 }
   
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 a {
-    color:beige;
+    color:antiquewhite;
     font-size:30px;
 
 }
@@ -72,15 +72,18 @@ li {
 }
 
 .carousel_middle {
-    border-left:5px dotted #E2DED0;
-    border-right:5px dotted #E2DED0;
+    border-left:5px dotted antiquewhite;
+    border-right:5px dotted antiquewhite;
 }
 
 .recipe {
-    width:700px;
+    width:800px;
     display:inline-flex;
-    color:#b6b4ab;
-    margin:30px;
+    color:#0e0e0c;
+    margin:20px;
+    background-color: rgb(211, 199, 185);
+    border: 2px solid #0e0e0c;
+    padding:40px;
 }
 
 .ingredients {
@@ -88,8 +91,7 @@ li {
     width:350px;
     margin-right: 60px;
     padding: 0px 10px 0px 40px;
-    color:#b6b4ab;
-    border-right: 5px dotted #E2DED0;
+    border-right: 5px dotted #0e0e0c;
 }
 
 .ingredients p {
@@ -100,6 +102,6 @@ li {
 
 .steps {
     display:inline;
-    width:320px;
+    width:350px;
     padding: 0px 10px;
 }
